@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        p{
+            background-color: beige;
+        }
+    </style>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/home.css')}}">
 </head>
 <body>
     {%include 'nav.html'%}
-    <h1>Flask project</h1>
+    <h1 style="color: brown;">Flask project</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, beatae quidem! Officiis, consectetur. Magnam, temporibus? Dolor quaerat inventore modi deserunt veniam iusto expedita vel voluptas cupiditate nesciunt iste culpa quae et libero hic ad, laudantium tempora blanditiis eligendi, repellat nulla ratione autem tenetur. Earum vel repudiandae ex magni laudantium odit soluta nulla quidem quos animi. Soluta deserunt sapiente quam voluptatibus delectus autem. Tempora delectus facere pariatur quis. Officia, ratione. Officiis ducimus totam eligendi expedita architecto! Totam cum unde libero officia, ipsum eius enim veniam cupiditate sunt voluptatum omnis a magnam molestiae officiis tempora error impedit saepe blanditiis odit! Quam natus accusantium doloribus officia provident asperiores, ratione, recusandae repellendus repudiandae, maxime debitis architecto! Debitis, nisi, eius alias omnis laborum nulla, aspernatur enim eos illo itaque odit. Nihil maxime, totam consequatur aperiam porro accusantium tempora consequuntur nostrum soluta non optio quidem similique, explicabo labore facilis minima ducimus saepe fuga voluptatem tempore repudiandae? Maiores, quos culpa! Dolorem, nulla expedita eligendi nisi error perspiciatis dignissimos voluptas tempora id necessitatibus natus in facilis ratione est enim voluptatem iure deserunt repellat consequuntur neque, reprehenderit recusandae numquam ipsam exercitationem. Et nostrum deserunt quod fugiat adipisci molestias dolor, voluptatibus ipsam eius praesentium consectetur iusto rem quos temporibus placeat eum non ducimus quidem asperiores provident officia voluptate. Ut blanditiis dolor perspiciatis rem nesciunt tempora eum, earum labore, ex necessitatibus voluptatem dolorum quibusdam consequatur, magnam in culpa optio hic. Et vel enim debitis facilis odio sint iste totam nam aliquid accusamus necessitatibus voluptatum tempore consequuntur consequatur atque veritatis molestiae, sapiente hic repellat sequi eius! Repudiandae, rem quae. Sed corporis culpa quidem modi ipsum commodi dignissimos animi excepturi, quo odio suscipit fuga repellat eligendi dicta sint obcaecati similique beatae minus minima expedita amet vitae soluta reprehenderit! Consequatur nobis ratione tempora blanditiis aspernatur magni est qui fugit natus? Sit at praesentium, doloremque perspiciatis aspernatur, magnam architecto quisquam, tempora exercitationem mollitia iste distinctio est illum rerum eveniet commodi? Reiciendis mollitia explicabo recusandae doloremque obcaecati adipisci. Assumenda, id! Ab doloremque magni, natus placeat vitae dolor, aut eaque vel tenetur odit quaerat iste iusto ratione excepturi nemo esse! Provident illum nobis sapiente fugiat aliquid facere labore quam assumenda laboriosam, ducimus quae, commodi blanditiis? Ipsa nulla repellendus, nisi repellat a cumque, placeat, recusandae aspernatur molestias deserunt dolorum corporis dolores. Quasi aperiam molestias molestiae voluptatem deserunt incidunt, labore architecto est quo sunt! Culpa suscipit animi provident iure quis voluptatum ab laudantium, excepturi inventore obcaecati eius tempore veniam doloribus commodi nihil cumque fugiat! Nulla minima libero sequi, nesciunt tempora beatae error ea eius est illum cupiditate quae esse explicabo, fuga fugit. Nemo vel error veritatis totam ut quam soluta illum in praesentium nostrum pariatur sint nesciunt numquam, blanditiis reiciendis corrupti minima. Omnis laudantium necessitatibus, sunt temporibus voluptatibus nesciunt consequuntur, quam rem debitis accusamus incidunt dolore, quasi asperiores vero. Consectetur necessitatibus doloremque excepturi expedita maiores laboriosam exercitationem, deleniti nulla adipisci, minus asperiores? Tempora, ipsum temporibus eveniet reprehenderit debitis ducimus, placeat quam voluptatem neque vitae dolor consequatur iste vel, ab aliquam in tempore error nesciunt amet saepe molestias doloribus a.</p>
+
+
+    <button onclick="myclick()">click</button>
+
+    <!-- <script>
+        function myclick(){
+            alert("I am Javascript")
+        }
+    </script> -->
+
+    <script src="{{url_for('static',filename='js/home.js')}}"></script>
 </body>
 </html>
